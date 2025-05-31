@@ -904,7 +904,6 @@ const MessagesView = () => {
 // Profile View Component
 const ProfileView = () => {
   const { currentUser, signOut } = useAuth();
-  const [editMode, setEditMode] = useState(false);
   const [showSkillQuiz, setShowSkillQuiz] = useState(false);
 
   const skillLevels = [
