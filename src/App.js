@@ -945,7 +945,7 @@ const ProfileView = () => {
 
         <div className="flex justify-center space-x-3">
           <button 
-            onClick={() => setEditMode(true)}
+            onClick={() => console.log('Edit profile clicked')}
             className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
           >
             <Edit className="h-4 w-4" />
